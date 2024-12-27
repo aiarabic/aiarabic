@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أدوات الذكاء الاصطناعي لتعلم اللغة العربية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            text-align: center;
+        }
+        .container {
+            margin: 20px auto;
+            padding: 15px;
+            max-width: 800px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #f4f4f4;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .comments, .contact, .progress-section, .resources {
+            margin-top: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-top: 10px;
+        }
+        .emoji-bar {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 10px;
+        }
+        .emoji-bar button {
+            font-size: 20px;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        .submit-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .progress-bar {
+            background-color: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        .progress-bar div {
+            height: 20px;
+            background-color: #4CAF50;
+            width: 0;
+            text-align: center;
+            color: white;
+            line-height: 20px;
+            transition: width 0.3s;
+        }
+        .resources ul {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>أدوات الذكاء الاصطناعي لتعلم اللغة العربية</h1>
+</header>
+
+<div class="container">
+    <h2>تصنيفات الأدوات</h2>
+    <ul>
+        <li>
+            <strong>مدقق القواعد والنحو:</strong> أداة تساعد في تصحيح الأخطاء النحوية والإملائية. 
+            <a href="https://example.com/grammar-checker" target="_blank">زر الأداة</a>.
+            <p>كيفية الاستخدام: أدخل النص في الحقل المخصص، وستظهر التصحيحات المقترحة.</p>
+            <div class="progress-bar"><div style="width: 20%;">20%</div></div>
+        </li>
+        <li>
+            <strong>محول النصوص إلى كلام:</strong> أداة لتحويل النصوص العربية إلى صوت مسموع.
+            <a href="https://example.com/text-to-speech" target="_blank">زر الأداة</a>.
+            <p>كيفية الاستخدام: اكتب النص، ثم اضغط على زر التشغيل لسماع النص.</p>
+            <div class="progress-bar"><div style="width: 50%;">50%</div></div>
+        </li>
+        <li>
+            <strong>مولد أسئلة:</strong> أداة لإنشاء أسئلة تعليمية من النصوص.
+            <a href="https://example.com/question-generator" target="_blank">زر الأداة</a>.
+            <p>كيفية الاستخدام: أدخل فقرة نصية، وستتولى الأداة إنشاء أسئلة بناءً عليها.</p>
+            <div class="progress-bar"><div style="width: 75%;">75%</div></div>
+        </li>
+    </ul>
+
+    <div class="progress-section">
+        <h2>تحفيز المستخدمين</h2>
+        <p>استمر في التعلم لتحقق تقدمًا! كلما زاد استخدامك للأدوات، ارتفعت نسبة تقدمك!</p>
+    </div>
+
+    <div class="resources">
+        <h2>قسم الموارد التعليمية</h2>
+        <ul>
+            <li><strong>أدلة استخدام مصورة:</strong> دليل تفصيلي يساعدك على استخدام الأدوات بشكل أفضل.</li>
+            <li><strong>نصائح للمبتدئين:</strong> خطوات أولية لتسهيل بدء رحلتك في تعلم اللغة العربية.</li>
+            <li><strong>موارد إضافية للتعلم:</strong> روابط لدورات تعليمية ومصادر موثوقة لدعم تعلمك.</li>
+        </ul>
+    </div>
+
+    <div class="comments">
+        <h2>التعليقات</h2>
+        <textarea placeholder="اكتب تعليقك هنا..."></textarea>
+        <div class="emoji-bar">
+            <button>😀</button>
+            <button>😐</button>
+            <button>😢</button>
+        </div>
+        <button class="submit-btn">إرسال التعليق</button>
+    </div>
+
+    <div class="contact">
+        <h2>اتصل بنا</h2>
+        <form action="mailto:hanimahmoud357@gmail.com" method="post" enctype="text/plain">
+            <label for="message">رسالتك:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="submit-btn">إرسال</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    // Example script to update progress bars dynamically (can be customized later)
+    const progressBars = document.querySelectorAll('.progress-bar div');
+    progressBars.forEach(bar => {
+        // Simulate progress update
+        let currentProgress = parseInt(bar.style.width);
+        if (currentProgress < 100) {
+            bar.style.width = (currentProgress + 10) + '%';
+            bar.textContent = bar.style.width;
+        }
+    });
+</script>
+
+</body>
+</html>
